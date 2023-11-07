@@ -1,0 +1,168 @@
+
+* {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;  
+  } 
+
+
+.input-container{
+  display: flex;
+  border: 0px solid grey;
+  justify-content: center;  
+  height: 5%;
+} 
+
+.input-box{
+  border: 2px solid black;
+  height: 45px;
+  margin: 4% 0% 4% 0%;
+  width: 40%;
+  padding: 5px;
+  padding-left: 1.5%;
+  font-weight: 600;
+  float: left;
+  outline: none;
+}
+
+
+.heading{
+  border:3px dashed black;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin: 2%;
+  width: 96%;
+}
+
+button.Add{
+  float: left;
+  height: 45px;
+  margin-top: 4%;
+  width:50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  margin-left: 0;
+  outline: none;
+  border-color: black;
+}
+
+
+.display-container{
+
+  border: 3px solid black;
+  margin-top: 3%;
+  width: 55%;
+  height: 50px;
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.buttonop{
+  border: 0px solid grey;
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  width: 25px;
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  box-sizing: border-box;
+}
+
+button:hover{
+  text-shadow: 1px 0px black;
+}
+
+.button1{
+    padding-bottom: 0px;
+    box-sizing: border-box;
+ }
+
+
+h3{
+  font-family: monospace;
+}
+
+
+.tasks{
+    border: 0px solid black;
+    width:85% ;
+    overflow-x:hidden;
+}
+
+
+body::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+
+}
+
+.tasks2::-webkit-scrollbar {
+      height: 0px;
+      width: 0px;
+}
+
+
+.tasks1::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+
+.tasks1{
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  width:85% ;
+  overflow-x:auto;
+}
+
+
+.tasks2{
+  text-decoration: none;
+  width:85% ;
+  overflow-x:auto;
+}
+
+
+/* 
+Default :
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/
