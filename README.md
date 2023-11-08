@@ -8,7 +8,7 @@ A simplest React Based Task Manager
 
 ## Installation
 
-- Clone Repository:
+- Clone Repository
   ```bash
     git clone https://github.com/DharaneshSP/ReactDo.git
   
